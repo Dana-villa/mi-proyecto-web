@@ -96,7 +96,7 @@ section { padding: 6rem 1.5rem; }
 .hero-image {
   display: none;
   position: absolute; right: 3rem; bottom: 5rem;
-  height: 70%; width: 40%; aspect-ratio: 2/3;
+  height: 40%; width: 40%; aspect-ratio: 2/3;
   border-radius: 1.25rem; overflow: hidden;
   border: 1px solid var(--border);
 }
