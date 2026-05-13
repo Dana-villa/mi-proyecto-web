@@ -42,7 +42,7 @@
   "proyectos": [
     {
       "id": 1,
-      "img": "/images/2.jpg",
+      "img": "./images/2.jpg",
       "tag": "Fullstack",
       "titulo": "Sistema Inteligente de Justificación de Inasistencias",
       "repo": "https://github.com/Dana-villa/Sistema-Inteligente-de-Justificaci-n-de-Inasistencias",
