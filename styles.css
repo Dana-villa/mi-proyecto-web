@@ -95,8 +95,8 @@ section { padding: 6rem 1.5rem; }
 .btn-ghost:hover { background: var(--surface); }
 .hero-image {
   display: none;
-  position: absolute; right: 3rem; bottom: 3rem;
-  width: 280px; aspect-ratio: 2/3;
+  position: absolute; right: 9rem; bottom: 5rem;
+  height: 70%; width: 40%; aspect-ratio: 2/3;
   border-radius: 1.25rem; overflow: hidden;
   border: 1px solid var(--border);
 }
