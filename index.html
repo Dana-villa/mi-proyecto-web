@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dana Villamizar · Desarrolladora Fullstack</title>
+  <meta name="description" content="Portafolio de Dana Villamizar, desarrolladora fullstack en formación en Campuslands. Donde la lógica encuentra la estética." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#top" id="brand" class="nav-brand">Dana Villamizar · 2026</a>
+    <div class="nav-links">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="top" class="hero">
+    <div class="hero-content">
+      <p id="hero-eyebrow" class="eyebrow"></p>
+      <h1>
+        Donde la <em>lógica</em><br />
+        encuentra la <em class="plain">estética.</em>
+      </h1>
+      <p id="hero-lead" class="hero-lead"></p>
+      <div class="cta-row">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-ghost">Hablemos →</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="/images/1.png" alt="Prisma de cristal refractando luz" />
+    </div>
+    <div class="scroll-hint">↓ Desliza</div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="sobre-mi" class="about">
+    <div class="container about-grid">
+      <div class="about-portrait">
+        <img src="/images/About.jpeg" alt="Retrato editorial" loading="lazy" />
+      </div>
+      <div>
+        <p class="eyebrow">Sobre mí</p>
+        <h2 id="about-title" class="section-title"></h2>
+        <div id="about-text" class="about-text"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Habilidades</p>
+          <h2 class="section-title">Stack &amp; criterio</h2>
+        </div>
+        <p class="muted" style="max-width:24rem;font-size:.875rem">
+          Habilidades en formación validadas por Campuslands, complementadas con criterio visual de mi formación en diseño.
+        </p>
+      </div>
+      <div id="skills-grid" class="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="proyectos" class="projects">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Casos de estudio</p>
+          <h2 class="section-title">Proceso, no capturas.</h2>
+        </div>
+        <div id="filters" class="filters"></div>
+      </div>
+      <div id="project-list" class="project-list"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="servicios">
+    <div class="container">
+      <div style="margin-bottom:4rem;max-width:48rem">
+        <p class="eyebrow">Lo que aporto</p>
+        <h2 class="section-title">Una desarrolladora con ojo de diseñadora.</h2>
+        <p class="muted" style="font-size:1.05rem">
+          No solo escribo código: pienso el producto completo, desde la base de datos hasta la última micro-decisión visual.
+        </p>
+      </div>
+      <div id="services-grid" class="services-grid"></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="formacion" class="education">
+    <div class="container">
+      <p class="eyebrow">Formación</p>
+      <h2 class="section-title" style="margin-bottom:4rem">Dos disciplinas, una mirada.</h2>
+      <ol id="timeline" class="timeline"></ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contacto" class="contact">
+    <div class="contact-wrap">
+      <p class="eyebrow">Contacto</p>
+      <h2>¿Construimos algo <span class="accent">memorable?</span></h2>
+      <p class="contact-lead">
+        Disponible para colaboraciones, proyectos freelance y oportunidades como desarrolladora junior.
+      </p>
+      <form id="contact-form" class="form" novalidate>
+        <label class="field">
+          <span class="field-label">Nombre</span>
+          <input name="name" type="text" maxlength="100" placeholder="Tu nombre" />
+          <span id="err-name" class="field-error"></span>
+        </label>
+        <label class="field">
+          <span class="field-label">Email</span>
+          <input name="email" type="email" maxlength="255" placeholder="email@ejemplo.com" />
+          <span id="err-email" class="field-error"></span>
+        </label>
+        <label class="field field-full">
+          <span class="field-label">Mensaje</span>
+          <textarea name="message" rows="5" maxlength="1000" placeholder="Cuéntame sobre tu proyecto..."></textarea>
+          <span id="err-message" class="field-error"></span>
+        </label>
+        <button type="submit" class="submit-btn">Enviar mensaje</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-row">
+      <p id="footer-copy"></p>
+      <div class="footer-links">
+        <a id="link-linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a id="link-github" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

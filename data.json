@@ -1,0 +1,92 @@
+{
+  "perfil": {
+    "nombre": "Dana Villamizar",
+    "rol": "Desarrolladora Fullstack en formación",
+    "ubicacion": "Bucaramanga, Colombia",
+    "anio": "2026",
+    "formacion": "Campuslands",
+    "titularHero": "Donde la lógica encuentra la estética.",
+    "descripcionHero": "Desarrolladora en formación desde Bucaramanga, Colombia, con base técnica en diseño y fotografía. Construyo productos digitales donde el código es tan sólido como la interfaz es memorable.",
+    "linkedin": "https://www.linkedin.com/in/dana-villamizar-b2439b1ab",
+    "github": "https://github.com/Dana-villa"
+  },
+  "sobreMi": {
+    "titulo": "Código, cámara, composición.",
+    "parrafos": [
+      "Mi camino no empezó frente a una terminal, sino detrás de un lente. Como técnica en Diseño y Fotografía aprendí que cada detalle cuenta y que la narrativa visual sostiene cualquier producto.",
+      "Hoy me formo como desarrolladora fullstack en Campuslands, traduciendo esa sensibilidad estética al desarrollo de software. No solo construyo aplicaciones: diseño soluciones donde el backend es tan sólido como la interfaz es atractiva.",
+      "Creo en los productos pensados de extremo a extremo —desde la consulta SQL hasta la última animación— y en el código limpio como una forma de respeto al usuario."
+    ]
+  },
+  "habilidades": {
+    "Frontend": [
+      { "nombre": "HTML + CSS", "nivel": 98 },
+      { "nombre": "JavaScript", "nivel": 70 },
+      { "nombre": "Introducción a la programación", "nivel": 100 }
+    ],
+    "Backend": [
+      { "nombre": "Python I", "nivel": 100 },
+      { "nombre": "Introducción al Backend y Bases de Datos", "nivel": 100 },
+      { "nombre": "MySQL I", "nivel": 30 }
+    ],
+    "Herramientas & Proceso": [
+      { "nombre": "GitHub & Control de versiones", "nivel": 100 },
+      { "nombre": "Scrum y Metodologías ágiles", "nivel": 100 }
+    ],
+    "IA & Creatividad visual": [
+      { "nombre": "Inteligencia Artificial", "nivel": 95 },
+      { "nombre": "Uso de IA en Proyectos Web", "nivel": 100 },
+      { "nombre": "Diseño & Fotografía", "nivel": 100 }
+    ]
+  },
+  "proyectos": [
+    {
+      "id": 1,
+      "img": "/images/2.png",
+      "tag": "Fullstack",
+      "titulo": "Sistema Inteligente de Justificación de Inasistencias",
+      "repo": "https://github.com/Dana-villa/Sistema-Inteligente-de-Justificaci-n-de-Inasistencias",
+      "problema": "El proceso de justificar inasistencias en entornos académicos es manual, lento y se pierde entre formatos físicos y correos.",
+      "solucion": "Diseñé y construí una plataforma web que permite a los estudiantes registrar y justificar inasistencias con apoyo de lógica inteligente para validar casos y centralizar el historial.",
+      "aporte": "Diseño de la interfaz, lógica del flujo de justificación y estructura del proyecto en JavaScript.",
+      "resultado": "Un flujo claro y trazable que reemplaza el papel y reduce la fricción entre estudiantes y administración.",
+      "tech": ["JavaScript", "HTML", "CSS", "IA"]
+    },
+    {
+      "id": 2,
+      "img": "/images/3.png",
+      "tag": "Frontend",
+      "titulo": "Proyecto JavaScript ABC",
+      "repo": "https://github.com/Dana-villa/Proyecto_JavaScript_ABC",
+      "problema": "Necesitaba un proyecto integrador que demostrara dominio real de los fundamentos de la web sin depender de frameworks.",
+      "solucion": "Desarrollé una aplicación con HTML semántico, CSS modular y JavaScript puro, cuidando la jerarquía visual y la experiencia en distintos tamaños de pantalla.",
+      "aporte": "Maquetación, estilos, interacciones y lógica en JavaScript desde cero.",
+      "resultado": "Evidencia tangible del manejo de los pilares del frontend y base sólida para proyectos más complejos.",
+      "tech": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 3,
+      "img": "/images/4.png",
+      "tag": "Fullstack",
+      "titulo": "Simulador de Gastos en Python",
+      "repo": "https://github.com/Dana-villa/Simulador-Gastos-python",
+      "problema": "Llevar el control de ingresos y gastos personales en hojas sueltas hace difícil entender hacia dónde se va el dinero.",
+      "solucion": "Construí en Python un simulador por consola que permite registrar movimientos, categorizarlos y obtener un panorama claro de las finanzas.",
+      "aporte": "Diseño de la lógica, estructuras de datos y experiencia de uso en consola.",
+      "resultado": "Una herramienta funcional para tomar decisiones financieras informadas y una base para evolucionar a interfaz web.",
+      "tech": ["Python", "Lógica", "POO"]
+    }
+  ],
+  "servicios": [
+    { "titulo": "Desarrollo Frontend", "descripcion": "Maquetación semántica, responsiva y con interacciones cuidadas. HTML, CSS y JavaScript con criterio visual." },
+    { "titulo": "Lógica Backend", "descripcion": "APIs en Python, modelado de datos y consultas en MySQL. Estructuras claras y mantenibles." },
+    { "titulo": "Interfaces atractivas", "descripcion": "Composición, jerarquía y tipografía pensadas como en una pieza editorial, no como una plantilla." },
+    { "titulo": "Dirección visual", "descripcion": "Fotografía, presentación de producto y narrativa de marca para que el trabajo se vea tan bien como funciona." },
+    { "titulo": "Integraciones con IA", "descripcion": "Aplicación de modelos de IA en proyectos web reales: contenido, búsqueda y asistencia conversacional." },
+    { "titulo": "Trabajo ágil", "descripcion": "Scrum, control de versiones con Git/GitHub y comunicación clara durante todo el proceso." }
+  ],
+  "formacionTimeline": [
+    { "anio": "ACTUALIDAD - 2025", "titulo": "Desarrollo de Software", "lugar": "Campuslands", "detalle": "Formación intensiva fullstack: HTML, CSS, JavaScript, Python, MySQL, Git, Scrum e IA aplicada." },
+    { "anio": "2024 - 2021", "titulo": "Técnico en Diseño y Fotografía", "lugar": "Formación técnica", "detalle": "Composición, color, dirección de imagen y narrativa visual aplicada a producto." }
+  ]
+}
