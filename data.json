@@ -42,7 +42,7 @@
   "proyectos": [
     {
       "id": 1,
-      "img": "/images/2.png",
+      "img": "/images/2.jpg",
       "tag": "Fullstack",
       "titulo": "Sistema Inteligente de Justificación de Inasistencias",
       "repo": "https://github.com/Dana-villa/Sistema-Inteligente-de-Justificaci-n-de-Inasistencias",
@@ -54,7 +54,7 @@
     },
     {
       "id": 2,
-      "img": "/images/3.png",
+      "img": "/images/3.jpg",
       "tag": "Frontend",
       "titulo": "Proyecto JavaScript ABC",
       "repo": "https://github.com/Dana-villa/Proyecto_JavaScript_ABC",
@@ -66,7 +66,7 @@
     },
     {
       "id": 3,
-      "img": "/images/4.png",
+      "img": "/images/4.jpg",
       "tag": "Fullstack",
       "titulo": "Simulador de Gastos en Python",
       "repo": "https://github.com/Dana-villa/Simulador-Gastos-python",
